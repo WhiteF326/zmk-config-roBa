@@ -73,10 +73,10 @@
 
         number_kigou {
             bindings = <
-&kp NUMBER_1        &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                &kp NUMBER_6      &kp N7             &kp N8         &kp NUMBER_9      &kp NUMBER_0
-&trans              &mkp MB1      &mkp MB3      &mkp MB2      &trans         &trans      &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp MINUS         &kp EQUAL
-&trans              &kp LG(A)     &kp LG(C)     &kp LG(V)     &kp LG(LS(R))  &trans      &trans     &trans            &trans             &kp SLASH      &kp SINGLE_QUOTE  &trans
-&ml 4 LEFT_COMMAND  &trans        &trans        &trans        &trans         &trans      &trans     &trans                                                                &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                         &kp NUMBER_6      &kp N7             &kp N8         &kp NUMBER_9      &kp NUMBER_0
+&trans        &mkp MB1      &mkp MB3      &mkp MB2      &trans  &trans      &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp MINUS         &kp EQUAL
+&trans        &trans        &trans        &trans        &trans  &trans      &trans     &trans            &trans             &kp SLASH      &kp SINGLE_QUOTE  &trans
+&trans        &trans        &trans        &trans        &trans  &trans      &trans     &trans                                                                &trans
             >;
         };
 
@@ -94,16 +94,7 @@
 &trans          &mmv MOVE_UP    &trans           &msc SCRL_UP    &trans                      &trans  &trans  &trans  &trans  &trans
 &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans          &trans           &trans          &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans          &trans           &trans          &trans  &trans      &trans  &trans                          &sl 0
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp Z   &kp X   &kp C   &kp V   &kp B       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans          &trans          &trans           &trans          &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
