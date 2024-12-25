@@ -16,14 +16,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        to_l5 {
-            bindings = <&mo 5>;
-            key-positions = <28 37>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         to_layer_0: to_layer_0 {
@@ -82,7 +75,7 @@
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                      &kp NUMBER_6  &kp N7             &kp N8  &kp NUMBER_9  &kp NUMBER_0
 &trans        &mkp MB1      &mkp MB3      &mkp MB2      &trans  &trans      &trans  &trans        &kp DOUBLE_QUOTES  &trans  &trans        &trans
-&trans        &trans        &trans        &trans        &trans  &trans      &trans  &kp COLON     &kp SEMI           &trans  &trans        &trans
+&trans        &trans        &trans        &trans        &trans  &trans      &mo 5   &kp COLON     &kp SEMI           &trans  &trans        &trans
 &trans        &trans        &trans        &trans        &trans  &trans      &trans  &trans                                                 &trans
             >;
         };
@@ -110,16 +103,16 @@
 &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR         &kp PERCENT                       &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp SLASH     &trans      &trans  &kp MINUS  &kp EQUAL      &kp BACKSLASH  &kp GRAVE             &trans
 &trans            &trans             &kp APOS        &kp DOUBLE_QUOTES  &kp QUESTION  &trans      &trans  &trans     &trans         &trans         &trans                &trans
-&none             &none              &none           &trans             &trans        &trans      &trans  &trans                                                         &trans
+&none             &none              &none           &mo 5              &trans        &trans      &trans  &trans                                                         &trans
             >;
         };
 
         kigou2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans          &trans    &trans                    &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp UNDERSCORE  &kp PLUS  &kp LS(NON_US_BACKSLASH)  &kp TILDE  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans          &trans    &trans                    &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                         &trans
+&trans  &trans  &trans  &trans  &trans                      &trans          &trans    &trans    &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp UNDERSCORE  &kp PLUS  &kp PIPE  &kp TILDE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans          &trans    &trans    &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                         &trans
             >;
         };
     };
