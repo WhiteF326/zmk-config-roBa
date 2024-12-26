@@ -109,10 +109,10 @@
 
         kigou2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans          &trans    &trans    &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp UNDERSCORE  &kp PLUS  &kp PIPE  &kp TILDE  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans          &trans    &trans    &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                         &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans          &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp UNDERSCORE  &kp PLUS  &kp PIPE  &kp TILDE
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans          &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                      &trans
             >;
         };
     };
