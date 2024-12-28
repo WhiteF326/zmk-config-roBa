@@ -99,10 +99,10 @@
 
         kigou2+winmac {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans          &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp UNDERSCORE  &kp PLUS  &kp PIPE  &kp TILDE
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans          &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                      &trans
+&trans  &trans  &trans  &kp PRINTSCREEN  &trans                      &trans  &trans          &trans    &trans    &trans
+&trans  &trans  &trans  &trans           &trans  &trans      &trans  &trans  &kp UNDERSCORE  &kp PLUS  &kp PIPE  &kp TILDE
+&trans  &trans  &trans  &trans           &trans  &trans      &trans  &trans  &trans          &trans    &trans    &trans
+&trans  &trans  &trans  &trans           &trans  &trans      &trans  &trans                                      &trans
             >;
         };
     };
