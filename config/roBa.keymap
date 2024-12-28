@@ -15,10 +15,6 @@
     quick-tap-ms = <0>;
 };
 
-&inc_dec_kp {
-    bindings = <&msc>, <&msc>;
-};
-
 / {
     combos { compatible = "zmk,combos"; };
 
@@ -40,6 +36,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        inc_dec_msc: inc_dec_msc {
+            compatible = "zmk,behavior-sensor-rotate-var";
+            label = "INC_DEC_MSC";
+            #sensor-binding-cells = <2>;
+            bindings = <&msc>, <&msc>;
+
+            tap-ms = <0>;
+        };
     };
 
     keymap {
@@ -53,7 +58,7 @@
 &kp LEFT_COMMAND  &kp LEFT_SHIFT  &kp LEFT_ALT  &mo 1  &mo 4  &kp LANG2      &kp LANG1      &kp SPACE                                &mo 2
             >;
 
-            sensor-bindings = <&inc_dec_kp 0 0>;
+            sensor-bindings = <&inc_dec_msc SCRL_UP SCRL_DOWN>;
         };
 
         number {
