@@ -65,17 +65,17 @@
 
         number {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                          &kp NUMBER_6  &kp N7             &kp N8     &kp NUMBER_9  &kp NUMBER_0
-&trans        &mkp MB1      &mkp MB3      &mkp MB2      &trans  &trans      &kp DELETE  &kp EQUAL     &kp DOUBLE_QUOTES  &kp MINUS  &trans        &trans
-&trans        &trans        &trans        &trans        &trans  &trans      &trans      &kp COLON     &kp SEMI           &kp UNDER  &trans        &trans
-&trans        &trans        &trans        &trans        &trans  &trans      &trans      &trans                                                    &mo 3
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                      &kp NUMBER_6  &kp N7             &kp N8     &kp NUMBER_9  &kp NUMBER_0
+&trans        &mkp MB1      &mkp MB3      &mkp MB2      &trans  &trans      &trans  &kp EQUAL     &kp DOUBLE_QUOTES  &kp MINUS  &trans        &trans
+&trans        &trans        &trans        &trans        &trans  &trans      &trans  &kp COLON     &kp SEMI           &kp UNDER  &trans        &trans
+&trans        &trans        &trans        &trans        &trans  &trans      &trans  &trans                                                    &mo 3
             >;
         };
 
         actions {
             bindings = <
 &kp ESC         &kp UP_ARROW    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE                                       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT          &trans           &trans      &trans             &kp PRINTSCREEN   &trans        &trans        &trans        &kp F11       &kp F12
+&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT          &trans           &trans      &kp PSCRN          &kp DELETE        &trans        &trans        &trans        &kp F11       &kp F12
 &kp F1          &kp F2          &kp F3             &kp F4           &kp F5      &kp LG(LA(L))      &kp LC(UP_ARROW)  &kp F6        &kp F7        &kp F8        &kp F9        &kp F10
 &trans          &trans          &trans             &mo 3            &trans      &trans             &trans            &trans                                                  &trans
             >;
